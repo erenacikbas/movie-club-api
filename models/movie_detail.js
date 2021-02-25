@@ -12,7 +12,6 @@ const MovieDetailSchema = new Schema({
   vote_count: Number,
   overview: String,
   release_date: String,
-  popularity: Number,
   original_language: String,
   imdb_id: String,
   poster_path: String,

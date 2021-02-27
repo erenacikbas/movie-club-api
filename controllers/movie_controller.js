@@ -77,6 +77,11 @@ exports.movie_search_byID = function (req, res) {
       imdb_id: result.imdb_id,
       poster_path: result.poster_path,
       backdrop_path: result.backdrop_path,
+      tagline: result.tagline,
+      genres: result.genres,
+      runtime: result.runtime,
+      production_companies: result.production_companies,
+      revenue: result.revenue
     });
   };
   movieDetail();
